@@ -1,0 +1,60 @@
+#box{
+    height: 100px;
+    width: 100px;
+ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -5px;
+    transform: translateX(50%);
+  
+
+}
+
+h2{
+    text-align: center;
+    margin-top: 30pxx;
+}
+
+.move2{
+    padding: 10px;
+    margin-top: 60px;
+}
+
+.move{
+    padding: 10px;
+    margin-top: 60px;
+}
+
+img{
+    width: 400px;
+   margin: 0 auto;
+   display: block;
+
+}
+
+
+
+#box2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    margin-right: 20px;
+
+}
+
+
+
+
+@media screen and (max-width: 500px){
+    .container{
+        height: 100%;
+        width: 100%;
+        background-color: green;
+    }
+}
+
+
